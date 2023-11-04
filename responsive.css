@@ -1,0 +1,270 @@
+@media (width > 768px) {
+    header {
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+    }
+    .headerimgmobile {
+        display: none;
+    }
+    .headerimgtablet {
+        display: block;
+    }
+    .headertxtdiv {
+        position: absolute;
+        left: 48%;
+        top: 15%;
+    }
+    .headerptext {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .hallimgmobile {
+        display: none;
+    }
+    .hallimgtablet {
+        display: block;
+    }
+    .chairimgmobile {
+        display: none;
+    }
+    .chairimgtablet {
+        display: block;
+    }
+    .peopleimgmobile {
+        display: none;
+    }
+    .peopleimgtablet {
+        display: block;
+    }
+    h2 {
+        width: 223px;
+        height: 135px;
+        color: #151515;
+        font-size: 50px;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 45px;
+    }
+    .containerptxt {
+        width: 223px;
+        height: 140px;
+        color: #444444;
+        font-size: 18px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 28px;
+        word-wrap: break-word
+    }
+    .twoboxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: "pirveli meore";
+        column-gap: 70px;
+    }
+    .hallimgtablet{
+        grid-area: meore ;
+    }
+    .threeboxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 20px;
+        column-gap: 15px;
+    }
+    .blackbox2 {
+        width: 280px;
+        height: 393px;
+    }
+    h3 {
+        width: 223px;
+        height: 90px;
+        color: white;
+        font-size: 50px;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 45px;
+        margin-left: 30px;
+    }
+    .blackboxptxt {
+        width: 223px;
+        height: 112px;
+        color: white;
+        font-size: 18px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    footer {
+        height: 216px;
+    }
+    .footerdiv {
+        display: flex;
+        flex-direction: row;
+    }
+    .footerimg {
+        margin-top: 2px;
+    }
+    .footerptxt {
+        width: 281px;
+        height: 104px;
+        margin-top: 60px;
+        margin-left: 90px;
+    }
+    .footericon {
+        margin-left: 120px;
+        margin-bottom: 70px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (width > 1440px) {
+    
+    header {
+        width: 1440px;
+    }
+    
+    .blackbox {
+        display: block;
+        width: 1000px;
+        height: 799px;
+        background-color: black;
+    }
+    .headerimgtablet {
+        display: none;
+    }
+    .headerimgdesktop {
+        display: block;
+        position: absolute;
+        left: 33%;
+    }
+    h1 {
+        mix-blend-mode: exclusion;
+        width: 450px;
+        height: 176px;
+        color: white;
+        font-size: 96px;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 88px;
+        position: absolute;
+        right: 111%;
+    }
+    .headerptext {
+        width: 350px;
+        height: 160px;
+        color: #444444;
+        font-size: 22px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 32px;
+        position: absolute;
+        left: 45%;
+    }
+    .buttondiv{
+        margin-top: 270px;
+        margin-left: 230px;
+    }
+    .hallimgtablet {
+        display: none;
+    }
+    .hallimgdesktop{
+        display: block;
+    }
+    h2 {
+        width: 380px;
+        height: 120px;
+        color: #151515;
+        font-size: 60px;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 60px;
+    }
+    .containerptxt {
+        width: 350px;
+        height: 128px;
+        color: #444444;
+        font-size: 22px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 32px;
+        word-wrap: break-word
+    }
+    .chairimgtablet {
+        display: none;
+    }
+    .chairimgdesktop {
+        display: block;
+    }
+    .peopleimgtablet {
+        display: none;
+    }
+    .peopleimgdesktop {
+        display: block;
+    }
+    .blackbox2 {
+        width: 445px;
+        height: 382px;
+    }
+    h3 {
+        width: 350px;
+        height: 120px;
+        padding-top:60px;
+        padding-left: 20px;
+        color: white;
+        font-size: 60px;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 60px; 
+    }
+    .blackboxptxt {
+        width: 350px;
+        height: 96px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 32px;
+        word-wrap: break-word
+    }
+    .footerimg{
+        width: 160px;
+        height: 60px;
+        padding-top: 60px;
+        padding-left: 140px;
+    }
+    .footerptxt{
+        width: 430px;
+        height: 84px;
+        padding-left: 50px;
+        color: white;
+        font-size: 18px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 28px;
+    }
+    .footericon{
+        padding-top: 35px;
+        padding-left: 135px;
+    }
+    .buttondiv:hover .headerbtn1 {
+        background-color: #D5966C;
+    }
+}

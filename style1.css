@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+* , * ::before *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    width: 375px;
+    height: 574px;
+    background-image: url(./assets1/maplocaitionmobile.svg);
+    background-repeat: no-repeat;
+}
+.headerbtn {
+    border: none;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    letter-spacing: 3.64px;
+    width: 205px;
+    height: 72px;
+    background-color: #151515;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.blackbox {
+    width: 375px;
+    height: 493px;
+    background-color: black;
+    margin-top: -25px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-top: 60px;
+    margin-left: 17px;
+}
+h3 {
+    color: #D5966C;
+    font-size: 32px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 32px;
+    margin-top: 50px;
+    margin-left: 17px;
+}
+.newport {
+    width: 343px;
+    height: 84px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 28px;
+    margin-left: 17px;
+    margin-top: -15px;
+}
+.outnewly {
+    width: 343px;
+    height: 140px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 28px;
+    margin-left: 17px;
+}
+footer {
+    width: 100vw;
+    background-color: #D5966C;
+}
+.footertxt {
+    color: #151515;
+    font-size: 20px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-top: 65px;
+}
+.footerptxt{
+    width: 311px;
+    height: 104px;
+    color: #151515;
+    font-size: 16px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 26px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.footericons {
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}

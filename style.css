@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+
+* , * ::before *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    flex-direction: column;
+    font-family: 'Big Shoulders Display', 'Outfit';
+}
+header {
+    width: 375px;
+}
+.blackbox {
+    display: none;
+}
+.headerimgtablet {
+    display: none;
+}
+h1 {
+    width: 343px;
+    height: 110px;
+    color: #151515;
+    font-size: 60px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+    margin-left: 16px;
+}
+.headerptext {
+    width: 343px;
+    height: 112px;
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 28px;
+    margin-left: 16px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.headerbtn1 {
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    letter-spacing: 3.64px;
+    width: 205px;
+    height: 72px;
+    background-color: #151515;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.headerbtnarrow {
+    margin-top: 15px;
+}
+.buttondiv {
+    display: flex;
+    flex-direction: row;
+}
+.hallimgtablet{
+    display: none;
+}
+.hallimgdesktop {
+    display: none;
+}
+.chairimgtablet{
+    display: none;
+}
+.chairimgdesktop{
+    display: none;
+}
+.peopleimgtablet{
+    display: none;
+}
+.peopleimgdesktop{
+    display: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+h2 {
+    width: 343px;
+    height: 90px;
+    color: #151515;
+    font-size: 50px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.containerptxt {
+    width: 343px;
+    height: 112px;
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.blackbox2 {
+    width: 343px;
+    height: 293px;
+    background-color: black;
+    margin-top: -35px;
+}
+
+h3 {
+    width: 295px;
+    height: 90px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-left: 16px;
+    padding-top: 50px;
+}
+
+.blackboxptxt {
+    width: 295px;
+    height: 84px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 28px;
+    margin-left: 16px;
+    margin-top: -30px;
+}
+.chairimgmobile {
+    margin-bottom: 14px;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    margin-top: 130px;
+}
+.footerdiv {
+    margin-bottom: 40px;
+}
+.footerimg {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.footerptxt {
+    width: 311px;
+    height: 104px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 26px;
+    margin-left: 40px;
+}
+.footericon {
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+

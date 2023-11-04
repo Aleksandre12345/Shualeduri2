@@ -1,0 +1,138 @@
+@media (width > 768px) {
+    header {
+        width: 768px;
+        height: 600px;
+        background-image: url(./assets1/maplocationtablet.svg);
+        background-repeat: no-repeat;
+    }
+    .btbtbt {
+        margin-left: 30px;
+    }
+    .blackbox {
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+        height: 436px;
+    }
+    h1 {
+        width: 223px;
+        height: 100px;
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+    h3{
+        width: 350px;
+        height: 32px;
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+    .newport {
+        width: 398px;
+        height: 84px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .outnewly{
+        width: 398px;
+        height: 112px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .footerdiv {
+        display: flex;
+        flex-direction: row;
+    }
+    footer {
+        height: 216px;
+    }
+    .footertxt {
+        margin-top: 50px;
+    }
+    .footerptxt {
+        width: 281px;
+        height: 104px;
+        color: #151515;
+        font-size: 16px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 26px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .footericons {
+        margin-left: 140px;
+        margin-bottom: 68px;
+    }
+}
+
+@media (width > 1440px) {
+    header {
+        width: 1440px;
+        height: 685px;
+        background-image: url(./assets1/maplocationdesktop.svg);
+        background-repeat: no-repeat;
+    }
+    .btbtbt {
+        margin-left: 150px;
+    }
+    .blackbox {
+        width: 1440px;
+        height: 548px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -85px;
+    }
+    h1 {
+        width: 258px;
+        height: 140px;
+        margin-top: 110px;
+        margin-left: 180px;
+    }
+    h3{
+        width: 350px;
+        height: 36px;
+        margin-top: 110px;
+        margin-left: 300px;
+    }
+    .newport {
+        width: 445px;
+        height: 96px;
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+    .outnewly{
+        width: 440px;
+        height: 128px;
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+    footer {
+        height: 244px;
+    }
+    .footertxt {
+        width: 160px;
+        height: 58px;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+    .footerptxt {
+        width: 400px;
+        height: 84px;
+        color: #151515;
+        font-size: 16px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        line-height: 26px;
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+    .footericons {
+        margin-top: 100px;
+        margin-left: 270px;
+        margin-bottom: 68px;
+    }
+    .headerbtn:hover{
+        background-color: #D5966C;
+    }
+
+}
